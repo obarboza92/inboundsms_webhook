@@ -18,5 +18,4 @@ def inbound_sms():
     resp.message(f"Thanks for your message! You sent: {message_body}")
     return str(resp)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
